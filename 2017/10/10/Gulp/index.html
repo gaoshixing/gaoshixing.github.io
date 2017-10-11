@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Gulp教程Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css">
+<meta name="description" content="Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css 合并 压缩：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="高士行博客">
+<meta property="og:title" content="Gulp教程">
 <meta property="og:url" content="http://yoursite.com/2017/10/10/Gulp/index.html">
 <meta property="og:site_name" content="高士行博客">
-<meta property="og:description" content="Gulp教程Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css">
+<meta property="og:description" content="Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css 合并 压缩：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-10-10T11:56:51.651Z">
+<meta property="og:updated_time" content="2017-10-11T07:15:15.630Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="高士行博客">
-<meta name="twitter:description" content="Gulp教程Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css">
+<meta name="twitter:title" content="Gulp教程">
+<meta name="twitter:description" content="Gulp https://gulpjs.com/ http://www.gulpjs.com.cn/ https://github.com/gulpjs/gulp  WHY Gulp 是一个自动化构建工具，可以用来帮助你提高你的开发效率。   自动化 流程控制 网页性能优化 减少页面请求数量 如果一个页面引用的静态资源太多，例如 JavaScript 则可以把他们合并一下 把 css 合并 压缩：">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> | 高士行博客</title>
+  <title>Gulp教程 | 高士行博客</title>
   
 
 
@@ -259,7 +259,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">Gulp教程</h1>
         
 
         <div class="post-meta">
@@ -309,8 +309,7 @@
       
 
       
-        <hr>
-<h2 id="Gulp教程"><a href="#Gulp教程" class="headerlink" title="Gulp教程"></a>Gulp教程</h2><h1 id="Gulp"><a href="#Gulp" class="headerlink" title="Gulp"></a>Gulp</h1><ul>
+        <h1 id="Gulp"><a href="#Gulp" class="headerlink" title="Gulp"></a>Gulp</h1><ul>
 <li><a href="https://gulpjs.com/" target="_blank" rel="external">https://gulpjs.com/</a></li>
 <li><a href="http://www.gulpjs.com.cn/" target="_blank" rel="external">http://www.gulpjs.com.cn/</a></li>
 <li><a href="https://github.com/gulpjs/gulp" target="_blank" rel="external">https://github.com/gulpjs/gulp</a></li>
@@ -359,7 +358,7 @@
 </blockquote>
 <h4 id="globs"><a href="#globs" class="headerlink" title="globs"></a>globs</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 读取的是空目录 js</span></div><div class="line">gulp.src(<span class="string">'./src/js'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 读取的是单文件</span></div><div class="line">gulp.src(<span class="string">'./src/js/main.js'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 读取的是 js 根目录下的所有文件</span></div><div class="line">gulp.src(<span class="string">'./src/js/*'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 读取的是 js 根目录下的所有以 .js 结尾的文件</span></div><div class="line">gulp.src(<span class="string">'./src/js/*.js'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 递归读取 js 目录（所有的）</span></div><div class="line">gulp.src(<span class="string">'./src/js/**/*'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 递归读取 js 目录（所有的）中所有的以 .js 结尾的文件</span></div><div class="line">gulp.src(<span class="string">'./src/js/**/*.js'</span>)</div><div class="line"></div><div class="line"><span class="comment">// 读取 ./src/js/main.js 和 ./src/css/**/*.css</span></div><div class="line">gulp.src([<span class="string">'./src/js/main.js'</span>, <span class="string">'./src/css/**/*.css'</span>])</div><div class="line"></div><div class="line"><span class="comment">// 读取 client 里面所有以 .js 结尾的文件</span></div><div class="line"><span class="comment">// 排除 client 中所有以 b 开头，以 .js 结尾的文件</span></div><div class="line"><span class="comment">// 但是在排除的条件之外，读取 client/bad.js 文件</span></div><div class="line">gulp.src([<span class="string">'client/*.js'</span>, <span class="string">'!client/b*.js'</span>, <span class="string">'client/bad.js'</span>])</div></pre></td></tr></table></figure>
 <h4 id="options"><a href="#options" class="headerlink" title="options"></a>options</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">gulp.task(<span class="string">'copy-js'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// gulp.src(['src/js/*.js', '!src/js/b*.js', 'src/js/ba.js'])</span></div><div class="line">  <span class="comment">// gulp.src(['src/js/*.js', '!src/js/b*.js'], &#123;</span></div><div class="line">  <span class="comment">//     base: './src/' // 默认会直接拷贝到 dist 根目录，如果希望让拷贝到 dist 中的 js 目录保持原来的文件结构，则把 js 的父目录 src 配置到 base 选项中就可以了</span></div><div class="line">  <span class="comment">//   &#125;)</span></div><div class="line">  <span class="comment">//   .pipe(gulp.dest('./dist'))</span></div><div class="line"></div><div class="line">  gulp.src(<span class="string">'./src/js/helper/*.js'</span>, &#123;</div><div class="line">      base: <span class="string">'./src/'</span> <span class="comment">// 默认会直接拷贝到 dist 根目录，如果希望让拷贝到 dist 中的 js 目录保持原来的文件结构，则把 js 的父目录 src 配置到 base 选项中就可以了</span></div><div class="line">    &#125;)</div><div class="line">    .pipe(gulp.dest(<span class="string">'./dist'</span>))</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
-<h3 id="gulp-dest-path-options"><a href="#gulp-dest-path-options" class="headerlink" title="gulp.dest(path[, options])"></a>gulp.dest(path[, options])</h3><h4 id="path"><a href="#path" class="headerlink" title="path"></a>path</h4><p>要写入的目标路径目录，路径始终是目录</p>
+<h3 id="gulp-dest-path-options"><a href="#gulp-dest-path-options" class="headerlink" title="gulp.dest(path[, options])"></a>gulp.dest(path[, options])</h3><h4 id="path"><a href="#path" class="headerlink" title="path"></a>path</h4><p>tags<br>要写入的目标路径目录，路径始终是目录</p>
 <h3 id="gulp-task-name-deps-fn"><a href="#gulp-task-name-deps-fn" class="headerlink" title="gulp.task(name [, deps][, fn])"></a>gulp.task(name [, deps][, fn])</h3><p>没有任何行为的任务：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gulp.task(<span class="string">'aaa'</span>)</div></pre></td></tr></table></figure>
 <p>具有行为的任务：</p>
@@ -411,8 +410,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/10/10/study/" rel="next" title="">
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2017/10/10/study/" rel="next" title="Git使用总结">
+                <i class="fa fa-chevron-left"></i> Git使用总结
               </a>
             
           </div>
@@ -535,7 +534,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Gulp教程"><span class="nav-number">1.</span> <span class="nav-text">Gulp教程</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Gulp"><span class="nav-number"></span> <span class="nav-text">Gulp</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#WHY"><span class="nav-number">1.</span> <span class="nav-text">WHY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GET-STARTED"><span class="nav-number">2.</span> <span class="nav-text">GET STARTED</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#全局安装-gulp-cli"><span class="nav-number">2.0.1.</span> <span class="nav-text">全局安装 gulp-cli</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#初始化-package-json-文件"><span class="nav-number">2.0.2.</span> <span class="nav-text">初始化 package.json 文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#把-gulp-安装到本地项目"><span class="nav-number">2.0.3.</span> <span class="nav-text">把 gulp 安装到本地项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#在项目根目录下创建一个名字为-gulpfile-js-文件并写入以下内容"><span class="nav-number">2.0.4.</span> <span class="nav-text">在项目根目录下创建一个名字为 gulpfile.js 文件并写入以下内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后就可以测试你的-gulp-任务了"><span class="nav-number">2.0.5.</span> <span class="nav-text">然后就可以测试你的 gulp 任务了</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#API"><span class="nav-number">3.</span> <span class="nav-text">API</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-src-globs-options"><span class="nav-number">3.1.</span> <span class="nav-text">gulp.src(globs[, options])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#globs"><span class="nav-number">3.1.1.</span> <span class="nav-text">globs</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#options"><span class="nav-number">3.1.2.</span> <span class="nav-text">options</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-dest-path-options"><span class="nav-number">3.2.</span> <span class="nav-text">gulp.dest(path[, options])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#path"><span class="nav-number">3.2.1.</span> <span class="nav-text">path</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-task-name-deps-fn"><span class="nav-number">3.3.</span> <span class="nav-text">gulp.task(name [, deps][, fn])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#流程控制之：callback"><span class="nav-number">3.3.1.</span> <span class="nav-text">流程控制之：callback</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#依赖任务是并行执行的"><span class="nav-number">3.3.2.</span> <span class="nav-text">依赖任务是并行执行的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#流程控制之-return"><span class="nav-number">3.3.3.</span> <span class="nav-text">流程控制之 return</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-tasks-or-gulp-watch-glob-opts-cb"><span class="nav-number">3.4.</span> <span class="nav-text">gulp.watch(glob [, opts], tasks) or gulp.watch(glob [, opts, cb])</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-tasks"><span class="nav-number">3.5.</span> <span class="nav-text">gulp.watch(glob[, opts], tasks)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-cb"><span class="nav-number">3.6.</span> <span class="nav-text">gulp.watch(glob[, opts, cb])</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插件"><span class="nav-number">4.</span> <span class="nav-text">插件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#编译和压缩-less"><span class="nav-number">4.1.</span> <span class="nav-text">编译和压缩 less</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Gulp"><span class="nav-number">1.</span> <span class="nav-text">Gulp</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#WHY"><span class="nav-number">1.1.</span> <span class="nav-text">WHY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#GET-STARTED"><span class="nav-number">1.2.</span> <span class="nav-text">GET STARTED</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#全局安装-gulp-cli"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">全局安装 gulp-cli</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#初始化-package-json-文件"><span class="nav-number">1.2.0.2.</span> <span class="nav-text">初始化 package.json 文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#把-gulp-安装到本地项目"><span class="nav-number">1.2.0.3.</span> <span class="nav-text">把 gulp 安装到本地项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#在项目根目录下创建一个名字为-gulpfile-js-文件并写入以下内容"><span class="nav-number">1.2.0.4.</span> <span class="nav-text">在项目根目录下创建一个名字为 gulpfile.js 文件并写入以下内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后就可以测试你的-gulp-任务了"><span class="nav-number">1.2.0.5.</span> <span class="nav-text">然后就可以测试你的 gulp 任务了</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#API"><span class="nav-number">1.3.</span> <span class="nav-text">API</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-src-globs-options"><span class="nav-number">1.3.1.</span> <span class="nav-text">gulp.src(globs[, options])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#globs"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">globs</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#options"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">options</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-dest-path-options"><span class="nav-number">1.3.2.</span> <span class="nav-text">gulp.dest(path[, options])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#path"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">path</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-task-name-deps-fn"><span class="nav-number">1.3.3.</span> <span class="nav-text">gulp.task(name [, deps][, fn])</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#流程控制之：callback"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">流程控制之：callback</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#依赖任务是并行执行的"><span class="nav-number">1.3.3.2.</span> <span class="nav-text">依赖任务是并行执行的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#流程控制之-return"><span class="nav-number">1.3.3.3.</span> <span class="nav-text">流程控制之 return</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-tasks-or-gulp-watch-glob-opts-cb"><span class="nav-number">1.3.4.</span> <span class="nav-text">gulp.watch(glob [, opts], tasks) or gulp.watch(glob [, opts, cb])</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-tasks"><span class="nav-number">1.3.5.</span> <span class="nav-text">gulp.watch(glob[, opts], tasks)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#gulp-watch-glob-opts-cb"><span class="nav-number">1.3.6.</span> <span class="nav-text">gulp.watch(glob[, opts, cb])</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插件"><span class="nav-number">1.4.</span> <span class="nav-text">插件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#编译和压缩-less"><span class="nav-number">1.4.1.</span> <span class="nav-text">编译和压缩 less</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -733,5 +732,6 @@
 
   
 
+  
 </body>
 </html>
